@@ -1,0 +1,217 @@
+p {
+  color: purple;
+}
+
+
+
+
+h1{
+  color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  /* ... your existing styles for the sidebar ... */
+  color: lightpink; /* Change the text color for sidebar links */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Remove underline and change link color */
+.sidebar a {
+  text-decoration: none; /* Remove underline */
+  color: red; /* Change link color to pink (or any color you prefer) */
+}
+
+/* Style for selected text */
+::selection {
+  background-color: red; /* Change to your desired color */
+  color: lightpink; /* Change to the text color you prefer */
+}
+
+/* Style for Mozilla Firefox */
+::-moz-selection {
+  background-color: snow; /* Change to your desired color */
+  color: darkred; /* Change to the text color you prefer */
+}
+
+/* Style for Microsoft Edge (Chromium-based) and Safari */
+::-webkit-selection {
+  background-color: red; /* Change to your desired color */
+  color: lightpink; /* Change to the text color you prefer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for selected text */
+::selection {
+  background-color: pink; /* Change to your desired color */
+  color: white; /* Change to the text color you prefer */
+}
+
+/* Style for Mozilla Firefox */
+::-moz-selection {
+  background-color: pink; /* Change to your desired color */
+  color: white; /* Change to the text color you prefer */
+}
+
+/* Style for Microsoft Edge (Chromium-based) and Safari */
+::-webkit-selection {
+  background-color: pink; /* Change to your desired color */
+  color: white; /* Change to the text color you prefer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for selected text */
+::selection {
+  background-color: pink; /* Change to your desired color */
+  color: white; /* Change to the text color you prefer */
+}
+
+/* Style for Mozilla Firefox */
+::-moz-selection {
+  background-color: pink; /* Change to your desired color */
+  color: white; /* Change to the text color you prefer */
+}
+
+/* Style for Microsoft Edge (Chromium-based) and Safari */
+::-webkit-selection {
+  background-color: pink; /* Change to your desired color */
+  color: red; /* Change to the text color you prefer */
+}
+
+
+
+html {
+  background-color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

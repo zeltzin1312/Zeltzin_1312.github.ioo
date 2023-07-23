@@ -1,0 +1,43 @@
+let myVariable = document.querySelector("h1");
+alert("hello!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let iceCream = "chocolate";
+if (iceCream === "chocolate") {
+  alert("WELCOME! you can pick any links we have game links and food links and more! have fun exploring!");
+} else {
+  alert("WELCOME! you can pick any links we have game links and food links and more! have fun exploring!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//MDNS CODE (IF HAVE TO ERASE)                           

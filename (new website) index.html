@@ -1,0 +1,323 @@
+<!DOCTYPE alot_of_code_for_links>
+<html>
+  <head>
+    <link href="styles/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title>Links to places</title>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <img url="" alt="logo not done"></img>
+    <h1></h1>
+<img src="https://static3.bigstockphoto.com/0/3/4/large2/430609472.jpg" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+
+   <p>At links, we’re a global community of</p>
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li>coders</li>
+      <li>Thinkers</li>
+      <li>Buliders</li>
+    </ul>
+
+    <h1>1. Game links</h1>
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+      there are lots to pick from my fav game is worlds frvr!!!</p>
+
+    <p>There are a lot of games in <a href="https://www.abcya.com/">abcya</a> 
+         they are for learing have fun! grades to 6+.</p>
+
+
+    <p>Helpfulgames are really fun games and your children can learn at memory math colors and more at <a href="https://www.helpfulgames.com/">helpfulgames</a><p>helpfulgames just click here! and have fun!!!</p>
+
+
+
+
+    <p>Go to crazygames to find like a tone of games <a href="https://www.crazygames.com/">crazygames</a> 
+      looks very cool and fun most of these look like there for grown ups.</p>
+
+    <p>Go kids poki there are a lot of games but these are for kids <a href="https://kids.poki.com/">kids poki</a> 
+      looks awsomeee.</p>
+
+
+<h1>2. Shoping links</h1>
+
+
+    <p>Go To carolinaDuelxAccicors  <a href="https://carolinadeluxeaccessories.com/"> to some shoping and there are a bunch of things! like if your into yoga we got you! if you do tiktoks we got you too! have fun in the world of shoping!.</p>
+</a> 
+
+
+
+
+    <p>Go to <a href="https://shopping.google.com/?pli=1">google shoping</a> for some good shoping you can search anything you want! have fun looking for something you like!</p>
+
+
+
+    <p>To find somethings u want like gagets u can go to  <a href="https://www.ebay.com/">ebay</a>and thats also where u well find carolinaDuelxAccicors. Have fun looking at so many cool things in the world of shoping!!!</p>
+ 
+
+<h1>3. chanle links</h1>
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+  
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+ 
+
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+
+
+
+
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+
+
+
+
+    <p>Read the <a href="https://www.msn.com/en-us/play/">pick a game from microsoft EDGE</a> 
+
+
+      <button>Change user</button>
+<script src="scripts/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GPS Example</title>
+</head>
+<body>
+  <h1>Your Location:</h1>
+  <p id="location">Loading...</p>
+
+  <script>
+    function showPosition(position) {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+
+      const locationElement = document.getElementById("location");
+      locationElement.textContent = `Latitude: ${latitude}, Longitude: ${longitude}`;
+    }
+
+    function showError(error) {
+      const locationElement = document.getElementById("location");
+      locationElement.textContent = "Error getting location.";
+    }
+
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+      } else {
+        const locationElement = document.getElementById("location");
+        locationElement.textContent = "Geolocation is not supported by this browser.";
+      }
+    }
+
+    window.onload = getLocation;
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Go to Top and Bottom Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+
+    button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .go-to-bottom {
+      bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <!-- Your page content goes here -->
+    <!-- This is just a placeholder -->
+    
+    <!-- End of placeholder content -->
+  </div>
+  
+  <button class="go-to-top" onclick="scrollToTop()">Go to Top</button>
+  <button class="go-to-bottom" onclick="scrollToBottom()">Go to Bottom</button>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sidebar Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -250px; /* Initially hide the sidebar off the left side */
+      width: 250px;
+      height: 100%;
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      transition: left 0.3s;
+    }
+
+    .sidebar.active {
+      left: 0; /* Show the sidebar when active class is added */
+    }
+
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      cursor: pointer;
+    }
+
+    .menu-btn span,
+    .menu-btn span::before,
+    .menu-btn span::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 25px;
+      background-color: #000;
+      margin-bottom: 5px;
+      transition: all 0.3s;
+    }
+
+    .menu-btn.active span {
+      background-color: transparent; /* Hide the middle line when active class is added */
+    }
+
+    .menu-btn.active span::before {
+      transform: translateY(7px) rotate(45deg); /* Rotate top line */
+    }
+
+    .menu-btn.active span::after {
+      transform: translateY(-7px) rotate(-45deg); /* Rotate bottom line */
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="menu-btn" onclick="toggleSidebar()">
+    <span></span>
+  </div>
+
+  <script>
+    function toggleSidebar() {
+      var sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="my-css-file.css" />
